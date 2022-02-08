@@ -6,6 +6,7 @@
 package com.omar.main;
 
 import java.awt.Color;
+import java.awt.Toolkit;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
+//        setSize(Toolkit.getDefaultToolkit().getScreenSize());
     }
 
     /**
