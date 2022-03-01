@@ -86,6 +86,20 @@ public class Button extends JButton {
         grphcs.drawImage(img, 0, 0, null);
         super.paintComponent(grphcs);
     }
+    
+    
+    // Method to call the animation of the button, for example when the
+    // jtextfield is entered, it animates the button as if it were clicked
+    public void runAnimator() {
+        targetSize = Math.max(getWidth(), getHeight()) * 2;
+        animatSize = 0;
+        pressedPoint = new Point(getWidth() / 2, getHeight() / 2);
+        alpha = 0.5f;
+        if (animator.isRunning()) {
+            animator.stop();
+        }
+        animator.start();
+    }
 
     
     

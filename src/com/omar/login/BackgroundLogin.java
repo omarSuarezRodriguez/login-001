@@ -190,6 +190,8 @@ public class BackgroundLogin extends javax.swing.JPanel {
 
     private void myPassword1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_myPassword1MouseClicked
         // TODO add your handling code here:
+        System.out.println("Holas");
+        button1.runAnimator();
     }//GEN-LAST:event_myPassword1MouseClicked
 
     private void myPassword1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_myPassword1KeyPressed
